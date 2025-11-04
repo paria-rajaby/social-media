@@ -1,0 +1,19 @@
+.footer{
+    padding: 10px;
+    background-color: rgb(239, 237, 237);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+@media (max-width : 480px) {
+.footer{
+    position: absolute;
+}
+ }

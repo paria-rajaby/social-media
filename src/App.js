@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Footer from "./Components/Footer/Footer";
+import { useLocation } from "react-router-dom";
+
+import { useRoutes } from "react-router-dom";
+import routes from "./Components/routes";
 
 function App() {
+  let router = useRoutes(routes);
+  let location = useLocation();
+  const hideFooterRoutes = ["/upload", "/Edit"];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {router}
+      {!hideFooterRoutes.includes(location.pathname) && <Footer></Footer>}
+    </>
   );
 }
 
