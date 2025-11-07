@@ -3,32 +3,32 @@
         "id": 1,
         "username": "Reza Ahmadi",
         "bio": "Hello my friend. My name is Reza.",
-        "avatar": "./images/user1.jpg",
+        "avatar": "/social-media/images/user1.jpg",
         "posts": [
             {
                 "id": 1,
-                "image": "./images/img1.jpg",
+                "image": "/social-media/images/img1.jpg",
                 "isliked": false,
                 "likecount": 21,
                 "caption": "Happy halloween."
             },
             {
                 "id": 2,
-                "image": "./images/img2.jpg",
+                "image": "/social-media/images/img2.jpg",
                 "isliked": false,
                 "likecount": 11,
                 "caption": "coding time!"
             },
             {
                 "id": 3,
-                "image": "./images/img3.jpg",
+                "image": "/social-media/images/img3.jpg",
                 "isliked": false,
                 "likecount": 54,
                 "caption": "had great time."
             },
             {
                 "id": 4,
-                "image": "./images/img4.jpg",
+                "image": "/social-media/images/img4.jpg",
                 "isliked": false,
                 "likecount": 100,
                 "caption": "my cute new mug!"
@@ -39,11 +39,11 @@
         "id": 2,
         "username": "Mehdi Rad",
         "bio": "Hello my friend. My name is Mehdi.",
-        "avatar": "./images/user2.jpg",
+        "avatar": "/social-media/images/user2.jpg",
         "posts": [
             {
                 "id": 5,
-                "image": "./images/img5.jpg",
+                "image": "/social-media/images/img5.jpg",
                 "isliked": false,
                 "likecount": 21,
                 "caption": "cute kitty :)"
@@ -54,25 +54,25 @@
         "id": 3,
         "username": "Hossein Sharif",
         "bio": "Hello my friend. My name is Hossein.",
-        "avatar": "./images/user3.jpg",
+        "avatar": "/social-media/images/user3.jpg",
         "posts": [
             {
                 "id": 6,
-                "image": "./images/img6.jpg",
+                "image": "/social-media/images/img6.jpg",
                 "isliked": false,
                 "likecount": 21,
                 "caption": "cookies"
             },
             {
                 "id": 7,
-                "image": "./images/img7.jpg",
+                "image": "/social-media/images/img7.jpg",
                 "isliked": false,
                 "likecount": 11,
                 "caption": "Heeeey!"
             },
             {
                 "id": 8,
-                "image": "./images/img8.jpg",
+                "image": "/social-media/images/img8.jpg",
                 "isliked": false,
                 "likecount": 54,
                 "caption": "love flowers"
@@ -83,18 +83,18 @@
         "id": 4,
         "username": "Mohsen Hesabi",
         "bio": "Hello my friend. My name is Reza.",
-        "avatar": "./images/user4.jpg",
+        "avatar": "/social-media/images/user4.jpg",
         "posts": [
             {
                 "id": 9,
-                "image": "./images/img9.jpg",
+                "image": "/social-media/images/img9.jpg",
                 "isliked": false,
                 "likecount": 21,
                 "caption": "beauty sky."
             },
             {
                 "id": 10,
-                "image": "./images/img11.jpg",
+                "image": "/social-media/images/img11.jpg",
                 "isliked": false,
                 "likecount": 11,
                 "caption": "my little cute bunny"
@@ -105,18 +105,18 @@
         "id": 5,
         "username": "username",
         "bio": "Hello my friend. My name is username.",
-        "avatar": "./images/user4.jpg",
+        "avatar": "/social-media/images/user4.jpg",
         "posts": [
             {
                 "id": 11,
-                "image": "./images/img12.jpg",
+                "image": "/social-media/images/img12.jpg",
                 "isliked": false,
                 "likecount": 60,
                 "caption": "love this vibe."
             },
             {
                 "id": 12,
-                "image": "./images/img13.jpg",
+                "image": "/social-media/images/img13.jpg",
                 "isliked": false,
                 "likecount": 5,
                 "caption": "reading time ..."
