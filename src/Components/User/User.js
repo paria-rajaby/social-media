@@ -12,7 +12,7 @@ export default function User() {
   useEffect(() => {
     setUserData(null);
     if (!userID) return;
-    fetch("/Datas.json")
+    fetch(process.env.PUBLIC_URL + "/Datas.json")
       .then((res) => res.json())
       .then((data) => {
         const selectedUser = data.find((user) => user.id === userID);

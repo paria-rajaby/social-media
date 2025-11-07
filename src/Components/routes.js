@@ -9,4 +9,5 @@ let routes = [
   { path: "/Onlypost", element: <Onlypost /> },
   { path: "/Myprofile", element: <Myprofile /> },
 ];
+
 export default routes;

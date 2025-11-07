@@ -9,7 +9,7 @@ export default function Myprofile() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("/Datas.json")
+    fetch(process.env.PUBLIC_URL + "/Datas.json")
       .then((res) => res.json())
       .then((data) => {
         const myAccountInfos = data.find((user) => user.id === 5);

@@ -12,7 +12,7 @@ export default function Onlypost() {
   const { postID } = location.state || {};
   const navigate = useNavigate();
   useEffect(() => {
-    fetch("/Datas.json")
+    fetch(process.env.PUBLIC_URL + "/Datas.json")
       .then((res) => res.json())
       .then((data) => {
         const allPosts = data.flatMap((user) =>

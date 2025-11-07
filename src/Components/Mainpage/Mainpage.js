@@ -16,7 +16,7 @@ export default function Mainpage() {
     if (savedPosts) {
       setPosts(JSON.parse(savedPosts));
     } else {
-      fetch("/Datas.json")
+      fetch(process.env.PUBLIC_URL + "/Datas.json")
         .then((res) => res.json())
         .then((data) => {
           const allPosts = data.flatMap((user) =>
@@ -24,7 +24,12 @@ export default function Mainpage() {
               ...post,
               userId: user.id,
               username: user.username,
-              avatar: user.avatar,
+              avatar: user.avatar.startsWith("/social-media")
+                ? user.avatar
+                : process.env.PUBLIC_URL + user.avatar,
+              image: post.image.startsWith("/social-media")
+                ? post.image
+                : process.env.PUBLIC_URL + post.image,
             }))
           );
           setPosts(allPosts);
