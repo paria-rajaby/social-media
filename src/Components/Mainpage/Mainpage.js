@@ -16,7 +16,7 @@ export default function Mainpage() {
     if (savedPosts) {
       setPosts(JSON.parse(savedPosts));
     } else {
-      fetch(process.env.PUBLIC_URL + "/Datas.json")
+      fetch(`${window.location.origin}/social-media/Datas.json`)
         .then((res) => res.json())
         .then((data) => {
           const allPosts = data.flatMap((user) =>
