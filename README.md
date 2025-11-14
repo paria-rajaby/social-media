@@ -9,6 +9,10 @@ Users' data are loaded from a JSON file, and they can view posts and like them.
 2. Like and unlike posts
 3. Data fetched from a local JSON file
 4. Built with React Hooks and functional components
+5. 
+## 💻 Demo
+
+Check out the live version of the project here: [View Site](https://paria-rajaby.github.io/social-media/)
 
 ## 🛠️ Technologies Used
 
